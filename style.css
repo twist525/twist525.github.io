@@ -118,7 +118,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		.buy {
 					position: relative;
 					text-align: center;
-					max-width: 860px;
+					width: 860px;
 					color: white;
 					background: rgba(0,0,0,0.01);
 					margin: 0 auto;}
@@ -148,8 +148,18 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color: white;
 					background: rgba(0,0,0,0.01);
 					margin: 0px auto;}
+		.buy_final b {
+					font-size: 145%;
+		}
 		/* конец 2-я часть покупкиб=(оплата)*/
 
+		.garant {
+					color: white;
+					text-align: center;
+					position: relative;
+					float: center;
+					}
+		
 		.entry {
 					width: 33.2%;
 					display: block;
@@ -211,12 +221,9 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				height: 30px;
 				background: linear-gradient(to left, #3b14af, #390909);
 				clear: both;
-				margin-top: 20px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 0px;
+				margin: 0px auto;
 				position: relative;
-				padding: 5px 10px;
+				padding: 15px 15px;
 				overflow: fixed;}
 		
 		.footer p {
