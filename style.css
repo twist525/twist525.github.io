@@ -193,8 +193,13 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					overflow: fixed;
 					font-family: fantasy;
 					font-size: 130%;
-					font-weight: 600;
-					}
+					font-weight: 600;}
+					
+		.kvad:hover {
+					background: rgba(10,10,222,1);
+					transform: scale(1.01);
+					border: 2px solid white;}
+					
 		.faq	{
 					position: relative;
 					color: white;
