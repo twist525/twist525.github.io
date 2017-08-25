@@ -184,6 +184,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color: white;
 					display: block;
 					width: 25%;
+					height: 200px;
 					min-height: 200px;
 					margin: 0px 20px;
 					float: left;
