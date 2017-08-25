@@ -108,7 +108,20 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					position: relative;
 					background: rgba(0,0,0,0.001);
 					z-index: 10;}
-					
+		
+		.wrapper_garant {
+					max-width: 860px;
+					height: auto;
+					overflow: fixed;
+					margin: 0px auto;
+					position: relative;
+					background: rgba(0,0,0,0.75);
+					z-index: 10;}
+		
+		.wrapper_garant p {
+					margin-left: 35px;
+					margin-right: 35px;
+		}
 		.razrab {
 					max-width: 860px;
 					margin: 0px auto;
@@ -149,8 +162,8 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					background: rgba(0,0,0,0.01);
 					margin: 0px auto;}
 		.buy_final b {
-					font-size: 145%;
-		}
+					font-size: 145%;}
+					
 		/* конец 2-я часть покупкиб=(оплата)*/
 
 		/*Страница с гарантиями*/
@@ -160,7 +173,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					position: relative;
 					float: center;
 					font-size: 115%;
-					background: rgba(120,10,10,1);
+					background: rgba(120,10,10,0.95);
 					border: 2px solid rgb(80,5,5);
 					font-family: Times;
 					padding: 8px 12px;
@@ -187,26 +200,23 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color: white;
 					width: auto;
 					margin-top: 30%;
-					text-align: center;}
+					text-align: justify;}
 		
 		.vopros {	font-size: 140%;
 					color: red;
 					text-align: center;
 					float: center center;
 					position: relative;
-					margin: 15px 20px;}
+					margin: 5px 5px;
+					margin-left: 40px;}
+					
 		.otvet {	font-size: 140%;
-					color: gray;
+					color: yellow;
 					text-align: center;
 					float: center center;
 					position: relative;
-					margin: 15px 20px;}
-		.text	{
-					color: white;
-					position: relative;
-					float: left;
-					margin-left: 20%;
-					}
+					margin: 25px 5px;}
+		
 		/* конец Страница с гарантиями*/
 		
 		.entry {
