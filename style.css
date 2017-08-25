@@ -185,7 +185,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		.faq	{
 					position: relative;
 					color: white;
-					width: 90%;
+					width: auto;
 					margin-top: 30%;
 					text-align: center;}
 		
