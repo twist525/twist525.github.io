@@ -120,13 +120,19 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		
 		.wrapper_garant p {
 					margin-left: 35px;
-					margin-right: 35px;
-		}
+					margin-right: 35px;}
 		.razrab {
 					max-width: 860px;
 					margin: 0px auto;
 					color: white;
 					float: center;}
+		.agreement {
+					max-width: 860px;
+					margin: 0px auto;
+					color: white;
+					text-align: left;
+					background: rgba(10,10,10,0.75);}
+					
 		/* форма для покупки*/
 		.buy {
 					position: relative;
