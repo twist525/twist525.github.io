@@ -25,16 +25,17 @@
 		<div class="buy"> 
 			<form name="test" method="post" action="input1.php">
 				
-				<b>Ваш <i>УНИКАЛЬНЫЙ КОД</i>, необходимо ввести ниже:</b><br>
-				<p>Важно! Не изменяйте код выданный сервером!</p>
-				<textarea name="comment" cols="35" rows="1">QhY16ppY</textarea>
+				<b>Ваш <i>УНИКАЛЬНЫЙ КОД</i> для покупки, необходимо ввести ниже:</b><br>
+				<hr />
+				<!--<textarea name="comment" cols="35" rows="1">QhY16ppY</textarea>-->
+				<div id="UniCode"></div>
 				
 				<p><b>Укажите вашу ссылку на обмен Steam:</b><br>
 				<textarea name="comment" cols="35" rows="1"></textarea>
 				</p>
 				<p><b>Какую аркану покупаете?</b><Br>
-					<input type="radio"> Legion-Comander (790 руб)<Br>
-					<input type="radio"> Crystal-maiden (790 руб)<Br>
+					<input type="radio" value='790' name=var1> Legion-Comander (790 руб)<Br>
+					<input type="radio" value='790' name=var2> Crystal-maiden (790 руб)<Br>
 					<input type="radio"> Lina (790 руб)<Br>
 					<input type="radio"> Phantom Assasin (790 руб)<Br>
 					<input type="radio"> Shadow Fiend (790 руб)<Br>
@@ -44,7 +45,7 @@
 				</p>
 				<p>Введите уникальный код:<Br>
 				<textarea name="comment" cols="35" rows="1"></textarea></p>
-				<a href="buy_final.html" class="c" target="_self">Перейти к оплате</a>
+				<a href="buy_final.html" class="c" target="_self">Подтвердить/Перейти к оплате</a>
 				<input type="reset" value="Очистить"></p>
 				
 			</form>
@@ -56,5 +57,6 @@
 			</div>
 		</div>
 		</div>
+		<script src="js/UniCode.js"></script>
 	</body>
 </html>

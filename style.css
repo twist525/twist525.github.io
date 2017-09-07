@@ -13,7 +13,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		margin-top: 0px;}
 				
 				
-		header, wrapper, entry, animation, info, footer {
+		header, wrapper, entry, animation, footer {
 							display: block;}
 		.header {	
 					height: 394px; /* Высота шапки */
@@ -68,7 +68,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color:#fff; /*меняем цвет ссылок*/
 					padding:0px 20px; /*добавляем отступ*/
 					font-family: arial; /*меняем шрифт*/
-					line-height:50px; /*ровняем меню по вертикали*/
+					line-height: 59px; /*ровняем меню по вертикали*/
 					display: block; 
 					border-right: 0px solid #677B27; /*добавляем бордюр справа*/
 					-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
@@ -136,11 +136,14 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		/* форма для покупки*/
 		.buy {
 					position: relative;
+					float: bottom;
 					text-align: center;
 					width: 860px;
+					min-height: 450px;
 					color: white;
 					background: rgba(0,0,0,0.01);
-					margin: 0px auto;}
+					margin: 0px auto;
+					margin-top: 20px;}
 		/* конец форма для покупки*/
 		
 		/* форма для кнопки*/
@@ -166,7 +169,8 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					max-width: 860px;
 					color: white;
 					background: rgba(0,0,0,0.01);
-					margin: 0px auto;}
+					margin: 0px auto;
+					min-height: 450px;}
 		.buy_final b {
 					font-size: 145%;}
 					
@@ -259,6 +263,16 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		.entry i {
 					font-size: 130%;
 					color: white;}
+		
+		/*Наличие товара*/
+		.green p {
+					color: rgb(55,200,55);
+					font-size: 130%;}
+		.red p {
+					color: rgb(250,15,15);
+					font-size: 130%;}
+		/*Конец Наличие товара*/
+		
 		.entry:hover {
 					background: rgba(46,22,177,0.95);
 					transition: 0.55s;
@@ -289,7 +303,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		/* Нижний колонтитул*/
 		.footer {
 				width: auto;
-				float: auto;
+				float: bottom;
 				height: 30px;
 				background: linear-gradient(to left, #3b14af, #390909);
 				clear: both;
@@ -342,3 +356,20 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				background-color: white;}
 				
 		/*конец мини-меню с ссылками на соц сети */
+		
+		/* Ява скрипт для выдачи уникального кода*/
+		#UniCode {
+				color: purple;
+				background: orange;
+				width: 120px;
+				float: center;
+				position: relative;
+				padding: 2px 15px;
+				text-align: center;
+				margin: 0px auto;
+				margin-left: 490px;
+				margin-top: 20px;
+				font-size: 145%;
+				border: 3px solid rgb(125,25,125);}
+		/* Конец Ява скрипт для выдачи уникального кода*/
+		
