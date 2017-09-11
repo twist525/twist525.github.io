@@ -22,16 +22,15 @@
 		
 		<div class="wrapper">
 		<div class="buy"> 
-			<form name="test" method="post" action="input1.php">
+			<form name="test" method="post" action="../buy_final.html" target="_self">
 				
 					<div class="entry">
-							<a href="buy/lina.html" target="_self">
 							<figure><img src="../images/arkana/lina-arcana.jpg" class="small"><hr />
-							<p><href src="#"><em>Arcana Lina (premium) <br><i>790 руб</i></em></p></figure></a>
-						<div class="green"><p>Есть в наличии!</p></div>
+							<p><em>Arcana Lina (premium) <br><i>790 руб</i></em></p></figure></a>
+						<div class="green"><hr /><p>Есть в наличии!</p><hr /></div>
 					</div>
 					
-				<b>Ваш <i>УНИКАЛЬНЫЙ КОД</i> для покупки, необходимо ввести ниже:</b><br>
+				<b><div class="orange"><p><i>УНИКАЛЬНЫЙ КОД</div></p></i> для покупки, необходимо ввести ниже:</b><br>
 				<div id="UniCode"></div>
 				
 				<p><b>Укажите вашу ссылку на обмен Steam:</b><br>
@@ -40,8 +39,14 @@
 				
 				<p>Введите уникальный код:<Br>
 				<textarea name="comment" cols="35" rows="1"></textarea></p>
-				<a href="../buy_final.html" class="c" target="_self">Подтвердить/Перейти к оплате</a>
-				<input type="reset" value="Очистить"></p>
+				
+				<form action="../buy_final.html" method="post" target="_self">
+					<input type='checkbox'  onchange="document.getElementById('submit').disabled = !this.checked" />Я принимаю <a href="../agreement.html">условия соглашения</a>.
+					<p>
+					<input  type='submit' id='submit' class="c" disabled value="Подтвердить/Перейти к оплате" />
+					<input type="reset" value="Очистить">
+					</p>
+				</form>
 				
 			</form>
 		</div>

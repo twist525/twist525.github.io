@@ -271,6 +271,10 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		.red p {
 					color: rgb(250,15,15);
 					font-size: 130%;}
+		.orange p {
+					color: orange;
+					font-size: 130%;}
+					
 		/*Конец Наличие товара*/
 		
 		.entry:hover {
@@ -372,4 +376,3 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				font-size: 145%;
 				border: 3px solid rgb(125,25,125);}
 		/* Конец Ява скрипт для выдачи уникального кода*/
-		
