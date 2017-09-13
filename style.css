@@ -167,20 +167,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color: #a00;}
 		/*конец форма для кнопки*/
 		
-		/* 2-я часть покупкиб=(оплата)*/
-		.buy_final {
-					position: relative;
-					text-align: center;
-					max-width: 860px;
-					color: white;
-					background: rgba(0,0,0,0.01);
-					margin: 0px auto;
-					min-height: 450px;
-					font-family: 'Lobster', cursive;}
-		.buy_final b {
-					font-size: 145%;}
-					
-		/* конец 2-я часть покупкиб=(оплата)*/
+		
 
 		/*Страница с гарантиями*/
 		.garant {
@@ -394,3 +381,62 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				font-size: 145%;
 				border: 3px solid rgb(125,25,125);}
 		/* Конец Ява скрипт для выдачи уникального кода*/
+		
+
+		/* 2-я часть покупкиб=(оплата)*/
+		.buy_final {
+					position: relative;
+					text-align: center;
+					max-width: 860px;
+					color: white;
+					background: rgba(0,0,0,0.01);
+					margin: 0px auto;
+					min-height: 450px;
+					font-family: 'Lobster', cursive;}
+		.buy_final b {
+					font-size: 145%;}
+					
+		/* кнопка для проверки оплаты*/
+		a.button12 {
+				position: relative;
+				display: inline-block;
+				font-size: 100%;
+				font-weight: 700;
+				color: #fff;
+				text-shadow: #053852 -1px 1px, #053852 1px 1px, #053852 1px -1px, #053852 -1px -1px;
+				text-decoration: none;
+				user-select: none;
+				padding: .3em .7em;
+				outline: none;
+				border-radius: 7px;
+				background: #053852 repeating-linear-gradient(135deg, #053852, #053852 10px, #1679ad 10px, #1679ad 20px, #053852 20px);
+				box-shadow:
+				inset -2px -2px rgba(0,0,0,.3),
+				inset 2px 2px rgba(255,255,255,.3);
+				transition: background-position 999999s, color 999999s, text-shadow 999999s;}
+		a.button12:hover, a.button12:focus {
+				text-shadow: #0175b1 -1px 1px, #0175b1 1px 1px, #0175b1 1px -1px, #0175b1 -1px -1px;
+				background: #0175b1 repeating-linear-gradient(135deg, #0175b1, #0175b1 10px, #8fd2f5 10px, #8fd2f5 20px, #0175b1 20px) no-repeat;
+				background-size: 1000% 100%;}
+		a.button12:hover {
+				background-position: 0 0;}
+		a.button12:focus {
+				color: rgba(255,255,255,0);
+				text-shadow: rgba(1,117,177,0) -1px 1px, rgba(1,117,177,0) 1px 1px, rgba(1,117,177,0) 1px -1px, rgba(1,117,177,0) -1px -1px;
+				background-position: 900% 0;
+				transition: background-position linear 600s, color .5s, text-shadow .5s;}
+		a.button12:after {
+				content: "Поиск платежа\2026";
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: .3em .7em;
+				color: rgba(0,0,0,0);
+				text-shadow: none;
+				transition: 99999s;}
+		a.button12:focus:after {
+				color: #fff;
+				text-shadow: #0175b1 -1px 1px, #0175b1 1px 1px, #0175b1 1px -1px, #0175b1 -1px -1px;
+				transition: .5s;}
+		/* конец кнопка для проверки оплаты*/
+		/* конец 2-я часть покупкиб=(оплата)*/
