@@ -175,7 +175,8 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					color: white;
 					background: rgba(0,0,0,0.01);
 					margin: 0px auto;
-					min-height: 450px;}
+					min-height: 450px;
+					font-family: 'Lobster', cursive;}
 		.buy_final b {
 					font-size: 145%;}
 					
@@ -280,6 +281,12 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 		.orange p {
 					color: orange;
 					font-size: 130%;}
+		.yellow p {
+					color: yellow;
+					font-size:130%;}
+		.green p {
+					color: rgb(35,230,50);
+					font-size:130%;}
 					
 		/*Конец Наличие товара*/
 		
