@@ -384,6 +384,7 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				color: purple;
 				background: orange;
 				width: 120px;
+				height: auto;
 				float: center;
 				position: relative;
 				padding: 2px 15px;
