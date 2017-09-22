@@ -149,6 +149,19 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 					background: rgba(0,0,0,0.01);
 					margin: 0px auto;
 					margin-top: 20px;}
+		
+		/*габариты для вводимых значений*/
+		.vvodim {
+					width:  280px;
+					height: 12px;
+					padding: 5px 10px 5px 10px;}
+		.vvodim_code {
+					width:  70px;
+					height: 30px;
+					padding: 5px 10px 5px 10px;}
+		
+		/*конец габариты для вводимых значений*/
+		
 		/* конец форма для покупки*/
 		
 		/* форма для кнопки*/
@@ -440,3 +453,5 @@ body {	background: linear-gradient(to left, #3b14af, #000);
 				transition: .5s;}
 		/* конец кнопка для проверки оплаты*/
 		/* конец 2-я часть покупкиб=(оплата)*/
+		
+		
