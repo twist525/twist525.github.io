@@ -22,15 +22,16 @@
 		
 		<div class="wrapper">
 		<div class="buy"> 
-			<form name="test" method="post" action="input1.php">
+			<for name="test" method="post" action="../buy_final.html" target="_self">
 				
 					<div class="entry">
-							<figure><img src="../images/arkana/techies-arcana.jpg" class="small"><hr />
-							<p><em>Arcana Techies <br>(sell) <br><i>790 руб</i></em></p></a>
-						<div class="red"><hr /><p>Закончились!</p><hr /></div>
+						<figure><img src="../images/arkana/jugger.png" class="small"><hr />
+						<p><em>Arcana Juggernaut <br><i>790 руб</i></em></p></figure></a>
+						<div class="green"><hr /><p>Есть в наличии!</p><hr /></div>
+						<p>Для покупки заполните поле справа!</p><hr />
 					</div>
 					
-				<b>Ваш <div class="orange"><p><i>УНИКАЛЬНЫЙ КОД</div></p></i> для покупки, необходимо ввести ниже:</b><br>
+				<b><div class="orange"><p><i>УНИКАЛЬНЫЙ КОД</div></p></i> для покупки, необходимо ввести ниже:</b><br>
 				<div id="UniCode"></div>
 				
 				<p><b>Укажите вашу ссылку на обмен Steam:</b><br>
@@ -39,10 +40,13 @@
 				
 				<p>Введите уникальный код:<Br>
 				<textarea name="comment" cols="35" rows="1"></textarea></p>
-				<a class="c" target="_self">Подтвердить/Перейти к оплате</a>
-				<input type="reset" value="Очистить"></p>
 				
+				<form action="../buy_final.html" method="post" action="../buy_final.html" target="_self">
+					Нажимая продолжить вы принимете <a href="../agreement.html">условия соглашения</a>.
+				</form>
 			</form>
+			<p></p>
+			<a href="../buy_final.html" target="_self"><input  type='submit' class="c" value="Продолжить" /> </a>
 		</div>
 		</div>
 		
